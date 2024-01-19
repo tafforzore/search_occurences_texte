@@ -16,6 +16,8 @@ jobs:
 
     - name: Install dependencies
       run: make
+    - name: RUNS JOBS
+      run: ./main
 
     - name: Run check
       run: make check
